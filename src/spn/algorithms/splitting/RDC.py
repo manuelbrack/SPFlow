@@ -112,7 +112,7 @@ import scipy.stats
 from sklearn.cross_decomposition import CCA
 from spn.structure.StatisticalTypes import MetaType
 
-CCA_MAX_ITER = 100
+CCA_MAX_ITER = 500
 
 
 def ecdf(X):
